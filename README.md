@@ -127,4 +127,11 @@ Example validation error (http code 422):
 }
 ```
 
+### Cookie handling
+
+For cookie parse use [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+
+Added cors and allow localhost:3000 to overcome the cors error.
+we can avoid this by running both API and client side at the same server.
+
 The project will change over time, if you have advice on how to do better write to me `minorforyounot[replace]gmail.com`
